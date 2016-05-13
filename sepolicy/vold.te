@@ -1,2 +1,1 @@
 allow vold persist_file:dir { getattr read };
-allow vold lvm_device:blk_file { getattr read write open ioctl };

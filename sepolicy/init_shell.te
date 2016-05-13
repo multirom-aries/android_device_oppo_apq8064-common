@@ -1,4 +1,0 @@
-# Lvm
-
-allow init_shell lvm_device:blk_file { getattr };
-allow init_shell vold_prop:property_service set;
